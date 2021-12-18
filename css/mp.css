@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    background-image: url('../ControleDisplay.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: white;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  
+  #header {
+    display: auto;
+  }
+  
+  a {
+    text-decoration: none;
+    font-family: Tahoma, sans-seriff;
+    color: rgb(38, 0, 255);
+    font-weight: bold;
+  }
+  #list {
+    display: auto;
+    bottom: 1rem;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .menuh {
+    margin-left: 9%;
+    padding: 0;
+    width: auto;
+    height: 30px;
+    
+  }
+  
+  .menuh ul {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    line-height: 1rem;  
+  }
+  
+  .menuh li {
+    display: inline;
+    float: left;
+    padding: 0;
+    margin: 0 1rem;
+    width: 200px;
+    border-left: #666666 thin solid;
+  }
+  
+  .menuh a {
+    display: block;
+    text-decoration: none;
+    padding: 6px;
+    background-color: #e6ff04;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .menuh :hover {
+    background-color: #2ca0ee;
+    text-decoration: none;
+  }

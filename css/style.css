@@ -1,0 +1,108 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  text-align: center;
+  background: #000000 url('../ControleDisplay.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: rgb(255, 255, 255);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#header {
+  margin: 1px auto;
+  display: auto;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(60, 40, 179);
+  font-weight: bold;
+  text-align: center;
+  border-radius: 25px;
+  display: block;
+  text-decoration: none;
+  padding: 6px;
+  background-color: #888686;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+
+}
+#list {
+  display: auto;
+  bottom: 1rem;
+  text-align: center;
+  width: 100%;
+  height: 0px;
+  margin-bottom: 50px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1rem;
+  position: fixed;
+  bottom: 750px;
+}
+
+#list li{
+  text-decoration: none;
+  display: inline;
+  float: left;
+  padding: 0;
+  margin: 0 1rem;
+  width: 200px;
+}
+
+#text {
+  float: center;
+  display: auto;
+  bottom: 4rem;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 500px
+}
+
+#logo {
+  display: auto;
+  bottom: 4rem;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: -100px;
+}
+
+#footer{
+  width: 100%;
+  text-align: right;
+  font-size: 15px;
+  color: blue;
+  font-style: italic;
+  border-bottom: 0px solid;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: auto;
+  border: 3px solid #000000;
+  border-radius: 25px;
+}
+
+
+.menuh {
+  margin-left: 9%;
+  padding: 0;
+  width: auto;
+  height: 30px; 
+}
+
+.menuh :hover {
+  border-radius: 25px;
+  background-color: #2ca0ee;
+  text-decoration: none;
+}
