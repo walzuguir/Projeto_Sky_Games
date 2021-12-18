@@ -13,28 +13,40 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-#header {
-  margin: 1px auto;
-  display: auto;
-  width: 100%;
+ul.menuh {
+  display: flex;
+  justify-content: space-around;
+  height: 30px;
 }
 
-a {
+.header {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 96vh;
+}
+
+.link {
   text-decoration: none;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(60, 40, 179);
   font-weight: bold;
   text-align: center;
   border-radius: 25px;
   display: block;
-  text-decoration: none;
-  padding: 6px;
   background-color: #888686;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 14px;
-  font-weight: bold;
-
 }
+
+#list li{
+  display: inline;
+  margin: 0 1rem;
+  width: 100%;
+}
+
+
+/*
 #list {
   display: auto;
   bottom: 1rem;
@@ -50,14 +62,7 @@ a {
   bottom: 750px;
 }
 
-#list li{
-  text-decoration: none;
-  display: inline;
-  float: left;
-  padding: 0;
-  margin: 0 1rem;
-  width: 200px;
-}
+
 
 #text {
   float: center;
@@ -106,3 +111,4 @@ a {
   background-color: #2ca0ee;
   text-decoration: none;
 }
+*/
