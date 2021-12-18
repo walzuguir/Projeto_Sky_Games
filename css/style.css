@@ -17,6 +17,7 @@ ul.menuh {
   display: flex;
   justify-content: space-around;
   height: 30px;
+  line-height: 30px;
 }
 
 .header {
