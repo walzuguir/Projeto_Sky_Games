@@ -24,7 +24,7 @@ ul.menuh {
     justify-content: flex-end;
     flex-wrap: wrap;
     flex-direction: column;
-    height: 96vh;
+    height: 63vh;
 }
 
 .link {
@@ -37,9 +37,11 @@ ul.menuh {
   display: block;
   background-color: #888686;
   font-size: 14px;
+  height: 100%;
 }
 
-#list li{
+.list li{
+  list-style-type: none;
   display: inline;
   margin: 0 1rem;
   width: 100%;
