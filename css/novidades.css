@@ -23,22 +23,22 @@ ul.menuh {
 }
 
 .header {
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    flex-direction: column;
-    height: 11vh;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 11vh;
 }
 
 .link {
   text-decoration: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: rgb(60, 40, 179);
+  color: 	#E0FFFF;
   font-weight: bold;
   text-align: center;
   border-radius: 25px;
   display: block;
-  background-color: #888686;
+  background-color: #292525;
   font-size: 14px;
   height: 100%;
 }

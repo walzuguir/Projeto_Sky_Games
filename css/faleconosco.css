@@ -1,0 +1,241 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  text-align: center;
+  background: #000000 url('../ControleDisplay.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: rgb(255, 255, 255);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  height: 100%;
+  margin: 0;
+}
+
+ul.menuh {
+  display: flex;
+  justify-content: space-around;
+  height: 30px;
+  line-height: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 11vh;
+}
+
+.link {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: 	#E0FFFF;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 25px;
+  display: block;
+  background-color: #292525;
+  font-size: 14px;
+  height: 100%;
+}
+
+.list li{
+  list-style-type: none;
+  display: inline;
+  margin: 0 1rem;
+  width: 100%;
+}
+
+.text {
+  width: 100%;
+  position: fixed;
+  bottom: 400px;
+}
+
+.footer{
+  color: rgb(70, 70, 145);
+  font-style: italic;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border: 3px solid #000000;
+  border-radius: 25px;
+}
+
+.Grupo{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  width: 400px;
+  margin: 339px;
+  padding: 15px;
+  display: inline;
+}
+
+.maior{
+  font-size: 14px;
+  width: 270px;
+  resize: none;
+}
+
+.container{
+  width: 75%;
+  background: transparent;
+  border-radius: 6px;
+  padding: 20px 60px 30px 40px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  margin-left: 14%;
+}
+.container .content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topic-text{
+  background-color: #292525;
+  border-radius: 5px;
+  border: 2px;
+  padding: 7px;
+  margin: 15px;
+  display: inline-block;
+  margin-top: 37%;
+}
+.container .content .right-side{
+  width: 75%;
+  margin-left: 75px;
+}
+.content .right-side .topic-text{
+  font-size: 23px;
+  font-weight: 600;
+  color: #E0FFFF;
+}
+.right-side .input-box{
+  height: 50px;
+  width: 100%;
+  margin: 12px 0;
+}
+.right-side .input-box input,
+.right-side .input-box textarea{
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #ffffff;
+  border-radius: 6px;
+  padding: 0 15px;
+  resize: none;
+}
+.right-side .message-box{
+  min-height: 110px;
+}
+.right-side .input-box textarea{
+  padding-top: 6px;
+}
+.right-side .button{
+  display: inline-block;
+  margin-top: 12px;
+}
+.right-side .button input[type="button"]{
+  color: #E0FFFF;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: #303030;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button input[type="button"]:hover{
+  background: #292525;
+}
+
+@media (max-width: 950px) {
+  .container{
+    width: 90%;
+    padding: 30px 40px 40px 35px ;
+  }
+  .container .content .right-side{
+   width: 75%;
+   margin-left: 55px;
+}
+}
+@media (max-width: 820px) {
+  .container{
+    margin: 40px 0;
+    height: 100%;
+  }
+  .container .content{
+    flex-direction: column-reverse;
+  }
+ .container .content .left-side{
+   width: 100%;
+   flex-direction: row;
+   margin-top: 40px;
+   justify-content: center;
+   flex-wrap: wrap;
+ }
+ .container .content .left-side::before{
+   display: none;
+ }
+ .container .content .right-side{
+   width: 100%;
+   margin-left: 0;
+ }
+}
+
+/*
+#list {
+  display: auto;
+  bottom: 1rem;
+  text-align: center;
+  width: 100%;
+  height: 0px;
+  margin-bottom: 50px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1rem;
+  position: fixed;
+  bottom: 750px;
+}
+
+
+
+#text {
+  float: center;
+  display: auto;
+  bottom: 4rem;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 500px
+}
+
+#logo {
+  display: auto;
+  bottom: 4rem;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: -100px;
+}
+
+.menuh {
+  margin-left: 9%;
+  padding: 0;
+  width: auto;
+  height: 30px; 
+}
+
+.menuh :hover {
+  border-radius: 25px;
+  background-color: #2ca0ee;
+  text-decoration: none;
+}
+*/
