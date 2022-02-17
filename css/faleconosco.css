@@ -27,7 +27,7 @@ ul.menuh {
   justify-content: flex-end;
   flex-wrap: wrap;
   flex-direction: column;
-  height: 11vh;
+  height: 92px;
 }
 
 .link {
@@ -38,7 +38,7 @@ ul.menuh {
   text-align: center;
   border-radius: 25px;
   display: block;
-  background-color: #292525;
+  background-color: rgba(0, 0, 0, 0.884);
   font-size: 14px;
   height: 100%;
 }
@@ -54,6 +54,16 @@ ul.menuh {
   width: 100%;
   position: fixed;
   bottom: 400px;
+  color: rgb(63, 110, 212);
+  font-size: large;
+  font: italic small-caps bold 55px "Comic Sans MS", sans-serif;  
+  height: 0px
+} 
+
+.menuh :hover {
+  border-radius: 25px;
+  background-color: rgba(26, 26, 26, 0.932);
+  text-decoration: none;
 }
 
 .footer{
@@ -96,10 +106,8 @@ ul.menuh {
 }
 
 .topic-text{
-  background-color: #292525;
-  border-radius: 5px;
-  border: 2px;
-  padding: 7px;
+  background-color: rgba(22, 22, 22, 0.925);
+  padding: 5px;
   margin: 15px;
   display: inline-block;
   margin-top: 37%;
@@ -109,7 +117,7 @@ ul.menuh {
   margin-left: 75px;
 }
 .content .right-side .topic-text{
-  font-size: 23px;
+  font-size: 22px;
   font-weight: 600;
   color: #E0FFFF;
 }
@@ -120,15 +128,16 @@ ul.menuh {
 }
 .right-side .input-box input,
 .right-side .input-box textarea{
-  height: 100%;
-  width: 100%;
-  border: none;
+  height: 90%;
+  width: 70%;
+  border: 3px solid #E0FFFF;
   outline: none;
   font-size: 16px;
-  background: #ffffff;
-  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.863);
+  border-radius: 10px;
   padding: 0 15px;
   resize: none;
+  color: #E0FFFF;
 }
 .right-side .message-box{
   min-height: 110px;
@@ -147,7 +156,7 @@ ul.menuh {
   border: none;
   padding: 8px 16px;
   border-radius: 6px;
-  background: #303030;
+  background: rgba(22, 22, 22, 0.925);
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -187,6 +196,16 @@ ul.menuh {
    width: 100%;
    margin-left: 0;
  }
+}
+
+div a{
+  text-decoration: none;
+  color: white;
+  transition: .25s ease-in-out;
+}
+
+div a:hover{
+  color:#707070;
 }
 
 /*

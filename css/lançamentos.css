@@ -11,8 +11,10 @@ body {
   background-size: 100% 100%;
   color: rgb(255, 255, 255);
   font-family: Georgia, "Times New Roman", Times, serif;
-  height: 100%;
+  height: 100vh;
+  width: 100vw;
   margin: 0;
+  padding: 0;
 }
 
 ul.menuh {
@@ -27,7 +29,7 @@ ul.menuh {
   justify-content: flex-end;
   flex-wrap: wrap;
   flex-direction: column;
-  height: 11vh;
+  height: 92px;
 }
 
 .link {
@@ -38,7 +40,7 @@ ul.menuh {
   text-align: center;
   border-radius: 25px;
   display: block;
-  background-color: #292525;
+  background-color: rgba(0, 0, 0, 0.884);
   font-size: 14px;
   height: 100%;
 }
@@ -54,16 +56,125 @@ ul.menuh {
   width: 100%;
   position: fixed;
   bottom: 400px;
+  color: rgb(63, 110, 212);
+  font-size: large;
+  font: italic small-caps bold 55px "Comic Sans MS", sans-serif;  
+  height: 0px
+}
+
+.menuh :hover {
+  border-radius: 25px;
+  background-color: rgba(26, 26, 26, 0.932);
+  text-decoration: none;
+}
+
+.content{
+  height: 520px;
+  width: 935px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%)
+}
+
+.navigation{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+}
+
+.bar{
+  width: 70px;
+  height: 17px;
+  border: 2px solid rgb(63, 110, 212);
+  margin: 6px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .4s;
+}
+
+.bar:hover {
+  background-color: rgb(38, 71, 143);
+}
+
+input{
+  display: none;
+}
+
+.slides{
+  display: flex;
+  width: 500%;
+  height: 100%;
+}
+
+.slide{
+  width: 20%;
+  transition: .6s;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+
+#slide1:checked ~ .s1 {
+  margin-left: 0;
+}
+
+#slide2:checked ~ .s1 {
+  margin-left: -20%;
+}
+
+#slide3:checked ~ .s1 {
+  margin-left: -40%;
+}
+
+#slide4:checked ~ .s1 {
+  margin-left: -60%;
+}
+
+#slide5:checked ~ .s1 {
+  margin-left: -80%;
 }
 
 .footer{
-  color: rgb(70, 70, 145);
+  color: 	rgb(70, 70, 145);
   font-style: italic;
   position: fixed;
   bottom: 0;
   right: 0;
   border: 3px solid #000000;
   border-radius: 25px;
+}
+
+.divulgatext{
+  font-style: oblique, italic;
+  font-size: 15px;
+  position: absolute;
+  top: 0; bottom: 0;
+  left: 0; right: 0;
+  margin: 378px;
+  transform: translate(0, -210px);
+  color: 	#E0FFFF;
+  background-color: rgba(0, 0, 0, 0.973);
+  border: 3px solid #000000;
+  border-width: 4px;
+  border-bottom: 3px;
+  border-radius: 10px;
+}
+
+div a{
+  text-decoration: none;
+  color: white;
+  transition: .25s ease-in-out;
+}
+
+div a:hover{
+  color:#707070;
 }
 
 /*

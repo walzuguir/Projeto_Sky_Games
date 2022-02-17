@@ -1,0 +1,177 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  text-align: center;
+  background: #000000 url('../DisplayGaleria.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  color: rgb(255, 255, 255);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  height: 100%;
+}
+
+ul.menuh {
+  display: flex;
+  justify-content: space-around;
+  height: 30px;
+  line-height: 30px;
+  width: 1400px;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 106px;
+}
+
+.link {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: 	#E0FFFF;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 25px;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.884);
+  font-size: 14px;
+  height: 100%;
+  width: 255px;
+  margin-top: 1px;
+}
+
+.list li{
+  list-style-type: none;
+  display: inline;
+  margin: 0 1rem;
+  width: 100%;
+}
+
+.text {
+  width: 100%;
+  position: fixed;
+  bottom: 400px;
+}
+
+.mine{
+  position: relative;
+  width: 350px;
+  top: 300px;
+  right: 1285px;
+}
+
+.red{
+  position: relative;
+  width: 340px;
+  top: 300px;
+  right: 1180px;
+  align-items: center;
+}
+
+.gta{
+  position: relative;
+  width: 350px;
+  top: 300px;
+  right: 1060px;
+  align-items: center;
+}
+
+.forza{
+  position: relative;
+  width: 350px;
+  top: 650px;
+  right: 2324px;
+}
+
+.csgo{
+  position: relative;
+  width: 350px;
+  top: 650px;
+  right: 2225px;
+}
+
+.pes21{
+  position: relative;
+  width: 385px;
+  top: 650px;
+  right: 2130px;
+}
+
+.mine2{
+  position: relative;
+  width: 180px;
+  top: 100px;
+  right: 3328px;
+  color: #E0FFFF;
+  background-color: rgba(0, 0, 0, 0.884);
+}
+
+.red2{
+  position: relative;
+  width: 450px;
+  top: 100px;
+  right: 3200px;
+  color: #E0FFFF;
+  background-color: rgba(0, 0, 0, 0.884);
+}
+
+.gtav{
+  position: relative;
+  width: 117px;
+  top: 100px;
+  right: 3020px;
+  color: #E0FFFF;
+  background-color: rgba(0, 0, 0, 0.884);
+}
+
+.forza2{
+  position: relative;
+  width: 300px;
+  top: 430px;
+  right: 4120px;
+  color: #E0FFFF;
+  background-color: rgba(0, 0, 0, 0.884);
+}
+
+.cs2{
+  position: relative;
+  width: 119px;
+  top: 430px;
+  right: 3900px;
+  color: #E0FFFF;
+  background-color: rgba(0, 0, 0, 0.884);
+}
+
+.pes22{
+  position: relative;
+  width: 114px;
+  top: 430px;
+  right: 3550px;
+  color: #E0FFFF;;
+  background-color: rgba(0, 0, 0, 0.884);
+}
+
+.footer{
+  color: rgb(70, 70, 145);
+  font-style: italic;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border: 3px solid #000000;
+  border-radius: 25px;
+}
+
+div a{
+  text-decoration: none;
+  color: white;
+  transition: .25s ease-in-out;
+}
+
+div a:hover{
+  color:#707070;
+}

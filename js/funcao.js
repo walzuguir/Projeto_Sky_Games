@@ -1,3 +1,3 @@
 function msg(){
-    alert("Sr(a), seus dados foram enviados com sucesso");
+    alert("Sr(a), seus dados foram enviados com sucesso.");
 }
